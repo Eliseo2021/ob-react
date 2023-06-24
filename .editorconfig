@@ -1,0 +1,6 @@
+indent_style = tab         # Estilo de sangrado utilizando tabulaciones
+end_of_line = lf          # Tipo de fin de línea (line ending) establecido como LF (salto de línea)
+insert_final_newline = true  # Insertar una nueva línea al final del archivo si no existe
+tab_width = 2             # Ancho de las tabulaciones (2 espacios en este caso)
+charset = utf-8           # Juego de caracteres utilizado, UTF-8 en este caso
+trim_trailing_whitespace = true  # Eliminar espacios en blanco al final de cada línea
