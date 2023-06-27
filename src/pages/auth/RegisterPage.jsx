@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import RegisterFormik from '../../components/pure/forms/registerFormik'
 
-const Registerpage = () => {
+const RegisterPage = () => {
     const history = useHistory();
     return (
         <div>
@@ -13,4 +13,4 @@ const Registerpage = () => {
     );
 }
 
-export default Registerpage;
+export default RegisterPage;

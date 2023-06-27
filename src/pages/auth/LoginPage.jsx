@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import Loginformik from '../../components/pure/forms/loginFormik';
 
-const Loginpage = () => {
+const LoginPage = () => {
     const history = useHistory();
     return (
         <div>
@@ -13,4 +13,4 @@ const Loginpage = () => {
     );
 }
 
-export default Loginpage;
+export default LoginPage;

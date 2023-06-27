@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import Loginpage from './pages/auth/LoginPage';
-import Registerpage from './pages/auth/RegisterPage';
+import LoginPage from './pages/auth/LoginPage';
+import RegisterPage from './pages/auth/RegisterPage';
 import Dashboardpage from './pages/dashboard/DashBoard';
 import Notfoundpage from './pages/404/NotFoundPage';
 
@@ -26,9 +26,9 @@ function AppRoutingFinal() {
           }
         </Route>
         {/* Login Route */}
-        <Route exact path='/login' component={Loginpage} />
+        <Route exact path='/login' component={LoginPage} />
          {/* Register Route */}
-         <Route exact path='/register' component={Registerpage} />
+         <Route exact path='/register' component={RegisterPage} />
         {/* DashBoard Route */}
         <Route exact path='/dashboard'>
           {
